@@ -29,7 +29,7 @@ The automation performs the following steps:
 
 ## Workflow Architecture
 
-
+```
 HTTP Trigger
       │
       ▼
@@ -43,6 +43,7 @@ Delay (5 Minutes)
       │
       ▼
 Send Discount Email
+```
 
 ---
 
@@ -58,7 +59,7 @@ Send Discount Email
 
 ## Sample Webhook Payload
 
-json
+```json
 {
   "tags": "MakeOrder",
   "total_price": 3000,
@@ -67,7 +68,7 @@ json
     "email": "example@gmail.com"
   }
 }
-
+```
 
 ---
 
